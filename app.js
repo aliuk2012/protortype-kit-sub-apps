@@ -4,7 +4,6 @@ const docApp = require('./docs/app.js')
 
 const mainApp = express()
 
-
 mainApp.use('/app', app)
 mainApp.use('/docs', docApp)
 
